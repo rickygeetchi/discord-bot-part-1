@@ -1,5 +1,5 @@
 import discord from 'discord.js';
-const token = "OTY5Mzc1NTgxNzg5NjUxMDA0.YmsfXA.XK3v3qPwoS7-XcfYnRaA-2Sn9yk"
+const token = ""
 
 const client = new discord.Client({
     intents:['GUILDS','GUILD_MESSAGES'],
