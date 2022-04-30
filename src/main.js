@@ -12,8 +12,9 @@ const client = new discord.Client({
  * @param {discord.Message} message 
  */
 function onMessage(message){
-if (message.content.includes("ping")) {
-    message.channel.send("pong")};
+    if (message.content.includes("ping")) {
+        message.channel.send("pong")
+    };
 }
 
 client.on('messageCreate', onMessage);
